@@ -24,7 +24,7 @@ async function getStudentByIdService(id) {
     });
     return response.json();
 }
-
+// Hola mundo
 async function getStudentsByCareerService(career) {
     const response = await fetch(`${API_URL}?career=${career}`, {
         method: "GET",
