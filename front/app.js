@@ -41,7 +41,7 @@ async function registerStudentService(name, dni, career) {
 async function getStudentByIdService(id) {
     return fetchData(`${STUDENTS_API_URL}/${id}`);
 }
-
+// Hola mundo
 async function getStudentsByCareerService(career) {
     return fetchData(`${STUDENTS_API_URL}?career=${encodeURIComponent(career)}`);
 }
